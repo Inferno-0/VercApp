@@ -1,0 +1,150 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: #f5f7fa;
+  color: #333;
+}
+
+/* LAYOUT FIX (FOOTER STICK) */
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 40px;
+  background: #1f2937;
+  color: white;
+}
+
+.navbar h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  color: #60a5fa;
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  padding: 15px;
+  background: #1f2937;
+  color: #d1d5db;
+  font-size: 14px;
+}
+
+/* PAGE CONTAINER */
+.page {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+/* HEADINGS */
+h1 {
+  margin-bottom: 15px;
+}
+
+h2 {
+  margin: 15px 0;
+}
+
+/* BUTTON */
+button {
+  padding: 10px 16px;
+  border: none;
+  background: #3b82f6;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #2563eb;
+}
+
+/* INPUT */
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-right: 10px;
+}
+
+/* WEATHER */
+.weather-container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.weather-input {
+  margin: 20px 0;
+}
+
+.weather-card {
+  margin-top: 20px;
+  padding: 20px;
+  background: #eef2ff;
+  border-radius: 10px;
+  display: inline-block;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.weather-card img {
+  width: 80px;
+}
+
+.temp {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.desc {
+  text-transform: capitalize;
+  color: #555;
+}
+
+/* LISTS */
+ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 6px;
+}
